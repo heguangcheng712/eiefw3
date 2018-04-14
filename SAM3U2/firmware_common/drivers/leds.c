@@ -186,7 +186,7 @@ Promises:
 void LedOn(LedNumberType eLED_)
 {
   u32 *pu32SetAddress;
-
+ 
   /* Configure set and clear addresses */
   if(Leds_asLedArray[eLED_].eActiveState == LED_ACTIVE_HIGH)
   {
